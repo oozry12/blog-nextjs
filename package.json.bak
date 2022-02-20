@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "next",
     "build": "rm -rf build && next build",
-    "start": "bash ./vercel.sh"
+    "start": "next build"
   },
   "eslintConfig": {
     "extends": "react-app"
